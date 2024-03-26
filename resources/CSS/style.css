@@ -1,0 +1,117 @@
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: "Open Sans", sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+#menu {
+    display: flex;
+    list-style-type: none;
+    margin-left: auto;
+}
+
+#menu li {
+    margin: 10px;
+}
+
+#menu li a {
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+#aboutMe {
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.aboutMe-container {
+    display: flex;
+}
+
+.aboutMe-text-container h1 {
+    text-transform: uppercase;
+}
+
+.briefMe {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+.name {
+    color:white;
+}
+
+.portrait {
+    border-image: round;
+    height: 130px;
+    width: auto;
+    border-radius: 100%;
+    border-color: gray;
+    border-style: solid;
+    border-width: 3px;
+    margin-right: 20px;
+}
+
+.codecademy {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.icon01 {
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 100%;
+}
+
+#projectList li {
+    cursor: pointer;
+}
+
+
+
+.skillsImages {
+    display: flex;
+}
+
+.skillsImage {
+    margin: 20px;
+    width: auto;
+    height: 50px;
+}
+
+footer {
+    margin-top: auto;
+    padding: 0;
+    text-align: center;
+    display: block;
+    background-color: orange;
+    border-radius: 50px;
+}
+
+.heart {
+    color: white;
+}
+
+.icon02s {
+    display: flex;
+}
+
+.icon02 {
+    margin: 10px;
+    height: 40px;
+    width: auto;
+    cursor: pointer;
+}
